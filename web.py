@@ -3,6 +3,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-  return '<b>hello heroku</b>'
+  localtime = time.localtime(time.time())
+  return '<b>hello heroku</b> ' + localtime
+
   
   
