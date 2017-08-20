@@ -3,6 +3,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-  return 'helo heroku'
+  return '<b>hello heroku</b>'
   
   
