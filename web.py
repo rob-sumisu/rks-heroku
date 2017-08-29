@@ -5,7 +5,7 @@ import time
 @app.route('/')
 def index():
   localtime = time.localtime(time.time())
-  return '<b>hello heroku</b> Hi Hong Kong'
+  return '<b>hello heroku</b> Hi Hong Kong '
 
   
   
